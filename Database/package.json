@@ -1,0 +1,15 @@
+{
+  "name": "dementia-firebase-backend",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && npm --prefix functions install",
+    "build": "npm --prefix functions run build",
+    "test": "npm --prefix functions test",
+    "test:rules": "npm --prefix functions run test:rules",
+    "emulators": "firebase emulators:start --only auth,firestore,functions,storage,pubsub,database",
+    "serve": "npm --prefix functions run build && firebase emulators:start --only auth,firestore,functions,storage,pubsub,database"
+  },
+  "devDependencies": {
+    "firebase-tools": "^15.0.0"
+  }
+}

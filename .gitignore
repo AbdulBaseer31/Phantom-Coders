@@ -54,6 +54,7 @@ __pycache__/
 venv/
 .venv/
 env/
+backup/
 
 # Database
 *.sqlite

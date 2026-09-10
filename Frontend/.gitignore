@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-backup/
+
+# Knowledge-graph output
+graphify-out/
+
+# Preview/build capture logs
+preview-*.txt
+
+# Log files
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local environment files (never commit secrets)
+.env
+.env.*
+!.env.example
